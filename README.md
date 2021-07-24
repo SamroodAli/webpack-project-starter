@@ -11,13 +11,15 @@ npm install
 ```
 
 ### Project structure
-* The html page is in `dist` folder.
+All files are in src folder. There is no need for dist folder. script tags and style tags in html are also not necessary. They will auto injected by webpack.
+
+* Write your html in `src/index.html` folder.
 * Write your javascript in `src/`. 
 * Write your styles in `src/index.scss` and import it in `index.js`
 ```js
 import 'index.scss';
 ```
-* The final project assets will be in `dist` folder after build command in production section below.
+* The final project assets will be in `dist` folder after build command in production section below. This is useful for publishing to github and for the lighthouse linter in github.
 ###
 
 ## For development
