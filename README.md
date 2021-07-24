@@ -108,3 +108,21 @@ npm run build
 ```bash
 npm run live
 ```
+
+### Thank you for using the project.
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Author
+
+👤 **Samrood Ali**
+
+- GitHub: [@samroodAli](https://github.com/samroodAli)
+- LinkedIn: [Samrood-Ali](https://www.linkedin.com/in/samrood-ali/)
