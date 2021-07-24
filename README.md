@@ -25,7 +25,7 @@ You have live updates for javscript and scss. Refresh after changes to html.
 
 1. Run in your terminal and keep it running, the project will be available live with hot reloading at `localhost:8080`. Happy programming : )
 ```bash
-npm run start
+npm run dev
 ```
 2. Keep the import for scss in `index.js` if you want scss styles.
 ```js
