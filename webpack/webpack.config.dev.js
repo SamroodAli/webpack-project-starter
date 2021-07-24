@@ -8,6 +8,7 @@ module.exports = {
   devServer: {
     contentBase: "./dist",
     hot: true,
+    port: "3000",
   },
   output: {
     filename: "main.js",
