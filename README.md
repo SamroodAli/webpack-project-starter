@@ -36,7 +36,7 @@ import 'index.scss';
 ```
 
 You can change localhost:port number in webpack/webpack.config.dev.js's port property
-```package.json
+```json
   devServer: {
     contentBase: "./dist",
     hot: true,
@@ -47,7 +47,7 @@ You can change localhost:port number in webpack/webpack.config.dev.js's port pro
 if you want html in dist folder instead of src folder
 remove the plugin `HtmlWebpackPlugin`. You can also remove the `Dotenv` plugin if you are not using any `.env` file.
 
-```package.json
+```json
   plugins: [
     new Dotenv(),
       filename: "index.html",       // remove this line
