@@ -50,6 +50,7 @@ remove the plugin `HtmlWebpackPlugin`. You can also remove the `Dotenv` plugin i
 ```js
   plugins: [
     new Dotenv(),
+    new HtmlWebpackPlugin({         //remove this line
       filename: "index.html",       // remove this line
       template: "/src/index.html",  //remove this line
       inject: true,                 // remove this line
