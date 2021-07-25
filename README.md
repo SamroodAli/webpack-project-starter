@@ -66,8 +66,10 @@ API_KEY=20r8304283yourkeyexample
 and import it in js
 
 ```js
-const { API_KEY } = process.env
+const API_KEY  = process.env.API_KEY
 ```
+* Your eslint might use destructuring syntax `{ API_KEY }`. As said in the documentation for dotenv-webpack, please use the syntax I have shown above if the environment variable is `undefined`
+
 if you are not using any environment variables, you can also safely remove the `new Dotenv()` plugin from the webpack config files.
 
 ## For linters
