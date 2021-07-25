@@ -85,7 +85,7 @@ npm run eslint
 ```
 * stylelint
 ```bash
-npm run stylelint
+npm run lint
 ```
 * webhint
 ```bash
