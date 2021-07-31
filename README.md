@@ -1,7 +1,8 @@
 # webpack-project-starter
 
 
-Welcome to my webpack starter for microverse
+Welcome to my webpack starter for microverse projects. This is for general projects.
+For phaser game development, use this [starter](https://github.com/SamroodAli/my-phaser-starter)
 
 ### Setup
 
